@@ -1,0 +1,60 @@
+/* Overall section styling */
+.packages-section {
+   padding: 60px 0;
+   background-color: #f8f9fa; /* Light gray background */
+ }
+ 
+ .packages-section h1 {
+   font-size: 2.5rem;
+   font-weight: bold;
+   color: #343a40; /* Dark gray */
+   margin-bottom: 40px;
+ }
+ 
+ /* Card styling */
+ .package-card {
+   border: none;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   background-color: #ffffff; /* White background */
+ }
+ 
+ .package-card:hover {
+   transform: translateY(-10px); /* Move card forward */
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+ }
+ 
+ /* Card image styling */
+ .package-card-img {
+   height: 200px;
+   object-fit: cover;
+ }
+ 
+ /* Card title styling */
+ .package-card-title {
+   font-size: 1.25rem;
+   font-weight: bold;
+   color: #007bff; /* Bootstrap primary color */
+   text-align: center;
+   margin-bottom: 10px;
+ }
+ 
+ /* Card text styling */
+ .package-card-text {
+   font-size: 0.95rem;
+   color: #6c757d; /* Bootstrap secondary color */
+   text-align: center;
+ }
+ 
+ /* Responsive adjustments */
+ @media (max-width: 768px) {
+   .package-card-img {
+     height: 150px;
+   }
+ 
+   .packages-section h1 {
+     font-size: 2rem;
+   }
+ }
